@@ -4,7 +4,7 @@
 #include <cjson/cJSON.h>
 
 struct ChatMessage {
-    char role[16], content[256]; 
+    char *role, *content; 
 };
 
 int main(){
