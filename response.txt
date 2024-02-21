@@ -1,0 +1,24 @@
+{
+  "id": "chatcmpl-8uRpgNaeGPXIRYxN4dKFBCVTlJHLw",
+  "object": "chat.completion",
+  "created": 1708464048,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Olá! Como posso ajudar você hoje?"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9,
+    "completion_tokens": 11,
+    "total_tokens": 20
+  },
+  "system_fingerprint": "fp_69829325d0"
+}
+
